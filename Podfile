@@ -6,13 +6,15 @@ target 'tumblr_app' do
   use_frameworks!
 
   # Pods for tumblr_app
+	pod 'AlamofireImage', '~> 3.3'
 
-  target 'tumblr_appTests' do
+
+  target 'tumblr_app' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'tumblr_appUITests' do
+  target 'tumblr_app' do
     inherit! :search_paths
     # Pods for testing
   end
